@@ -1,0 +1,6 @@
+{
+	"version": "2.0.0",
+	"presentation": {
+		"panel": "new", //这里shared表示共享，改成new之后每个进程创建新的端口
+}
+}

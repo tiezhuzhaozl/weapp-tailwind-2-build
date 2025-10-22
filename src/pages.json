@@ -1,0 +1,31 @@
+{
+  "globalStyle": {
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "测试",
+    "backgroundColor": "#fff",
+    "backgroundTextStyle": "dark",
+    "onReachBottomDistance": 50
+  },
+  "pages": [
+    // 启动页
+    {
+      "path": "pages/index/index",
+      "name": "index",
+      "meta": {
+        "title": "index"
+      },
+      "style": {
+        "navigationStyle": "custom",
+        "disableScroll": true
+      }
+    }
+  ],
+  
+  "easycom": {
+    "autoscan": true,
+    "custom": {
+      "^u-(.*)": "uview-ui/components/u-$1/u-$1.vue"
+    }
+  }
+}
