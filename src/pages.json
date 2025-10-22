@@ -21,7 +21,14 @@
       }
     }
   ],
-  
+  "subPackages": [
+    {
+      "root": "pages/nav",
+      "pages": [
+        "index"
+      ]
+    }
+  ],
   "easycom": {
     "autoscan": true,
     "custom": {
